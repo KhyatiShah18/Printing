@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gokul - Printing Press Online</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="banner" role="banner">
+    <header id="header">
+        <div class="header-content clearfix">
+            <nav class="navigation" role="navigation">
+                <ul class="primary-nav">
+                    <li><a href="#features">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#teams">About Us</a></li>
+                </ul>
+            </nav>
+            <h1 class="logo header-label" href="#">Gokul</h1>
+
+
+            <p class="tag-line">Your Online Printing Press</p>
+
+            <a href="#" class="nav-toggle">Menu<span></span></a>
+        </div>
+    </header>
+    <!-- header -->
+
+    <div class="container">
+        <div class="col-md-10 col-md-offset-1">
+            <img src="images/business-cards.jpg" width="231px" height="150px" />
+            <img src="images/event-poster.jpg" width="231px" height="350px" class="img-event" />
+            <img src="images/wirebinding.jpg" width="231px" height="150px" class="img-event" />
+            <div class="banner-text text-center banner-title">
+                <h1 class="banner-margin">Make your printing jobs really good. Get thinks faster & easy.</h1>
+                <h1 class="banner-margin1">Try <strong>Gokul Printery</strong> for better result.</h1>
+            </div>
+
+            <!-- banner text -->
+        </div>
+    </div>
+</section>
+<!-- banner -->
+<section id="features" class="features section">
+    <div class="container">
+        <div class="row">
+            <div class="headingsyle">
+                <h1><span>SERVICES</span></h1>
+            </div>
+            <div class="col-md-4 col-sm-6 feature text-center">
+
+                <img src="images/booklet.JPG" width="231px" height="150px" class="img-event" />
+
+                <div class="feature-content">
+                    <h5 class="services">Business Products</h5>
+
+                    <ul class="listing">
+                        <li>Annual Report</li>
+                        <li>Bill books & Invoice</li>
+                        <li>Brochures</li>
+                        <li>Business Stationery</li>
+                        <li>Calendar</li>
+                        <li>Certificates</li>
+                        <li>Diaries</li>
+                        <li>Document Printing</li>
+                        <li>Poster</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 feature text-center">
+                <span class="icon icon-desktop"></span>
+
+                <div class="feature-content">
+                    <h5 class="services">Business Cards</h5>
+
+                    <p>Service provision is often an economic activity where the buyer does not generally, except by
+                        exclusive contract, obtain exclusive ownership of the thing purchased.</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 feature text-center">
+                <span class="icon icon-lightbulb"></span>
+
+                <div class="feature-content">
+                    <h5>Others</h5>
+
+                    <p>Service provision is often an economic activity where the buyer does not generally, except by
+                        exclusive contract, obtain exclusive ownership of the thing purchased.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- features -->
+
+<!-- Contact Us -->
+<section id="contact" class="space100">
+    <iframe id="JotFormIFrame-70264418128454" onload="window.parent.scrollTo(0,0)" allowtransparency="true"
+            src="https://form.jotform.me/70264418128454" frameborder="0"
+            style="width:100%; height:539px; border:none;" scrolling="no"></iframe>
+    <script type="text/javascript"> window.handleIFrameMessage = function (e) {
+        var args = e.data.split(":");
+        var iframe = false;
+        if (args.length > 2) {
+            iframe = document.getElementById("JotFormIFrame-" + args[2]);
+        } else {
+            iframe = document.getElementById("JotFormIFrame");
+        }
+        if (!iframe) return;
+        switch (args[0]) {
+            case "scrollIntoView":
+                iframe.scrollIntoView();
+                break;
+            case "setHeight":
+                iframe.style.height = args[1] + "px";
+                break;
+            case "collapseErrorPage":
+                if (iframe.clientHeight > window.innerHeight) {
+                    iframe.style.height = window.innerHeight + "px";
+                }
+                break;
+            case "reloadPage":
+                window.location.reload();
+                break;
+        }
+        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+        if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+            var urls = {
+                "docurl": encodeURIComponent(document.URL),
+                "referrer": encodeURIComponent(document.referrer)
+            };
+            iframe.contentWindow.postMessage(JSON.stringify({"type": "urls", "value": urls}), "*");
+        }
+    };
+    if (window.addEventListener) {
+        window.addEventListener("message", handleIFrameMessage, false);
+    } else if (window.attachEvent) {
+        window.attachEvent("onmessage", handleIFrameMessage);
+    }
+    if (window.location.href && window.location.href.indexOf("?") > -1) {
+        var ifr = false;
+        if (args.length > 2) {
+            ifr = document.getElementById("JotFormIFrame-" + args[2]);
+        } else {
+            ifr = document.getElementById("JotFormIFrame");
+        }
+        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+        if (ifr && get.length > 0) {
+            var src = ifr.src;
+            src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get;
+            ifr.src = src;
+        }
+    } </script>
+</section>
+
+<!-- testimonials -->
+<section id="testimonials" class="section testimonials no-padding">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <div class="col-md-6">
+                            <div class="avatar">
+                                <img src="images/testimonial-1.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>"Yesterday's the past, tomorrow's the future, but today is a gift. That's why it's
+                                    called the present......."
+                                </p>
+                                <cite class="author">- Bil Keane</cite>
+                            </blockquote>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="col-md-6">
+                            <div class="avatar">
+                                <img src="images/testimonial-2.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <blockquote>
+                                <p>"My favorite things in life don't cost any money. It's really clear that the most
+                                    precious resource we all have is time........"
+                                </p>
+                                <cite class="author">= Steve Jobs....</cite>
+                            </blockquote>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- flexslider -->
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer" id="teams">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col col-md-4">
+                    <h5>Location</h5>
+
+                    <p>Vadodara,<br>INDIA </p>
+                </div>
+                <div class="footer-col col-md-4">
+
+                </div>
+                <div class="footer-col col-md-4">
+                    <h5>About Gokul</h5>
+
+                    <p>Different type of printings are done at Gokul like offset printing, screen printing, invitation cards, invoice, brochures, etc. with excellent quality.</p>
+					<p>Please contact us and we will provide you the quotation and other details.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer top -->
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="col-md-12">
+                <p>Copyright © 2017 Gokul. All Rights Reserved by Gokul Printery</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>        window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/retina.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

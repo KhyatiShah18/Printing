@@ -76,7 +76,9 @@ ul, ol {
   padding: 0; }
 
 ul li {
-  list-style: none; }
+  list-style-type: square;
+  color: #6600CC;
+  font-weight: bold;}
 
 .section {
   padding: 100px 0; }
@@ -136,7 +138,7 @@ ul li {
 ========================================================================== */
 
 #header {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   z-index: 999; }
   #header .header-content {
@@ -312,23 +314,23 @@ ul li {
 	$Banner
 ========================================================================== */
 .banner {
-  background-image: url(../images/banner.jpg);
+  background-image: url(../images/img.jpg);
   background-position: center top;
   background-repeat: no-repeat;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 750px; }
+  min-height: 650px; }
 
 .banner-text {
-  padding-top: 25%; }
+  padding-top: 2%; }
   .banner-text h1
 {
     color: #fff;
-    font-family: "Open Sans" , sans-serif;
+    font-family: calibri;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 20px;
     line-height: 62px;
 }
      .banner-text h3
@@ -355,7 +357,6 @@ ul li {
   margin-bottom: 50px; }
   .feature-content
 {
-    border: 1px dotted #6600CC;
     padding: 0 15px;
     margin-top: 30px;
 }
@@ -943,3 +944,55 @@ ul li {
 
 .icon-dribbble:before {
   content: "\e063"; }
+
+.header-label{
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.tag-line{
+  float: left;
+  clear: left;
+  color: white;
+  font-weight: bold;
+}
+
+.services{
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.banner-header{
+  min-height: 150px !important;
+}
+
+.header-common{
+  padding: 24px 0px !important;
+}
+
+.img-event{
+  margin-left: 35px;
+}
+
+.banner-title{
+  font-size: 16px;
+  font-family: calibri;
+  text-align: center;
+  color: white;
+}
+.banner-margin{
+  margin-top: -15px;
+}
+
+.banner-margin1{
+  margin-top: -28px;
+}
+
+.listing{
+  text-align: left;
+  display: inline-block;
+  float: inherit;
+}
